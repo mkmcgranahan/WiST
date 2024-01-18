@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lavenderblush;
+    font-family: Arial;
+}
+
+div#content {
+    clear: left;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+
+div#title-box {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: lavenderblush;
+    font-family: Garamond;
+}
+
+
+ul.description{
+    text-align: left;
+    font-weight: bold;
+}
+
+
+div#footer {
+    clear: left;
+    margin-left: 5%;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background: none;
+    transition: all .3s ease-in-out;
+}
+
+.slides {
+    padding: 5%;
+    height: 700px;
+    width: 600px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.slides img{
+    height: 25%;
+    width: 50%;
+}
+
+div#center{
+    margin:auto;
+    width:50%;
+    height:50%;
+}
+
+.prev-btn {
+  height: 100px;
+    width:100px;
+  cursor: pointer;
+}
+
+.next-btn {
+    height: 100px;
+    width:100px;
+    cursor: pointer;
+}
+
+
+.description{
+    font-family: "Garamond";
+    padding: 1%;
+}
+
+
+
